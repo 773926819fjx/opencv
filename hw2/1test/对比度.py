@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-imgfile = "C:\\Users\\Administrator\\Desktop\\1\\1\\6.png"
+imgfile = "hw2\\1\\6.png"
 
 img = cv2.imread(imgfile)
 b, g, r = cv2.split(img)
