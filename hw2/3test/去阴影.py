@@ -286,7 +286,7 @@ def process_image_file(
     return org_image, mask, shadow_clear
 
 
-image_path = "hw2\\3\\25.jpg"
+image_path = "hw2\\3\\30.png"
 
 org_image, mask, image_clear = process_image_file(image_path,
                                                   save=True,
